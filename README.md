@@ -1,24 +1,35 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic web based CRUD application using vueJS on the front end.  Versioned out an API with
+Rails 5 on the backend.  Simulating all CRUD actions on one page without any refreshes.  Some of the 
+application's functionality without leaving the page includes:
 
-Things you may want to cover:
+- Toggling of the bio from visible to not visible(simultaneously changing the button between "show" and "hide")  
+- Toggling of the input form via clicking the edit button
+- Deleting a person
+- Editing a person after clicking "save changes" button
+- Creating a new person
+- Seeing all the people that are in the database
 
-* Ruby version
+Feel free to clone the app and play around with it on your localhost by following the instructions and if 
+this helped you out any,feel free to star it.  Thanks:
 
-* System dependencies
+Clone the repo in to your projects directory, or wherever you want the repo to live:
+`$ git clone git@github.com:kparekh01/vuejs-people-app.git`
 
-* Configuration
+Bundle up the gems:
+`$ bundle`
 
-* Database creation
+Create the database( Postgresql ):
+`$ rails db:create`
 
-* Database initialization
+Seed the database:
+`$ rails db:seed`
 
-* How to run the test suite
+Migrate the database:
+`$rails db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
+Run your server and go to the appropriate route.  Thanks for reading.
 
-* Deployment instructions
 
-* ...
+
