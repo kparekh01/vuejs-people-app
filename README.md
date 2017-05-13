@@ -27,7 +27,7 @@ Seed the database:
 `$ rails db:seed`
 
 Migrate the database:
-`$rails db:migrate`
+`$ rails db:migrate`
 
 Run your server and go to the appropriate route.  Thanks for reading.
 
